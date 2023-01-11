@@ -1,4 +1,4 @@
-# webexam2023
+# exam
 
 ## Project setup
 ```

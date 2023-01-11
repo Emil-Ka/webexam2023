@@ -1,0 +1,38 @@
+.container {
+  width: 92%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.form {
+  max-width: 60%;
+  min-width: 400px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.button {
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #39b7b4;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.subtitle {
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: 500;
+}
