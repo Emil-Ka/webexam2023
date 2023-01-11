@@ -20,8 +20,6 @@ export const store = createStore({
         const startDateMs = startDate ? new Date(startDate).getTime() : 0;
         const endDateMs = endDate ? new Date(endDate).getTime() : new Date().getTime();
 
-        console.log(startDateMs, endDateMs);
-
         if (sort === 'asc') {
           interviews = interviews.sort((interview1, interview2) => {
             return new Date(interview1.date).getTime() - new Date(interview2.date).getTime();
@@ -41,7 +39,6 @@ export const store = createStore({
         });
 
         interviews = interviews.filter((interview) => {
-          console.log('if', new Date(interview.date).getTime())
           if (new Date(interview.date).getTime() > startDateMs && new Date(interview.date).getTime() < endDateMs) {
             return interview;
           }
