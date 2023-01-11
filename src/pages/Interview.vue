@@ -30,7 +30,7 @@
         </v-text-field>
         <v-textarea
           v-model="text"
-          label="Текст отзыва"
+          label="Текст комментария"
           required
           :rules="textRules"
         >
